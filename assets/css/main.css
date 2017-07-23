@@ -1979,7 +1979,8 @@
 		font-size: 2em;
 	}
 
-	.inner a {
+	.icons a {
+		color: #FFFFFF;
 		text-decoration: none;
 	}
 
