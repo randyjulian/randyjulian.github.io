@@ -1975,9 +1975,12 @@
 			display: none;
 		}
 
-	.kaggle a {
-		text-decoration: none;
+	.kaggle {
 		font-size: 2em;
+	}
+
+	.inner a {
+		text-decoration: none;
 	}
 
 /* Image */
