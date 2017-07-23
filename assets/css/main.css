@@ -1975,15 +1975,12 @@
 			display: none;
 		}
 
-	.kaggle {
+	a .kaggle {
 		font-size: 2em;
-	}
-
-	.kaggle a {
-		color: #FFFFFF;
-		text-decoration: none;
 		border-bottom-color: transparent;
 	}
+
+
 
 /* Image */
 
