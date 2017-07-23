@@ -1975,6 +1975,19 @@
 			display: none;
 		}
 
+	.kaggle:after{
+    content: '';
+    display: block;
+    height: 30px;  /*height of icon */
+    width: 30px;  /*width of icon */
+    position: absolute;
+      /*where to replace the icon */
+    top: 0px;
+    left: -40px;
+      /*background */
+    background: url(images/kaggle.svg) no-repeat 0px 0px;
+}	
+
 /* Image */
 
 	.image {
