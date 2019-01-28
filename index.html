@@ -27,7 +27,7 @@
         <!-- Responsive styles -->
         <link href="css/responsive.min.css" rel="stylesheet">
         <!-- Font Awesome Icons -->
-        <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!-- Google Fonts -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
@@ -63,11 +63,11 @@
         <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
 		<!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
-		<li><a href="#"><i class="fab fa-kaggle"></i></a></li>
-		<li><a href="#"><i class="fab fa-github"></i></a></li>
-		<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+		<li><a href="#"><i class="fa fa-kaggle"></i></a></li>
+		<li><a href="#"><i class="fa fa-github"></i></a></li>
+		<li><a href="#"><i class="fa fa-envelope"></i></a></li>
       </ul>
     </div>
         <!-- Sidebar -->
@@ -100,12 +100,6 @@
                                 </li>
                                 <li>
                                     <a href="#resume">Education</a>
-                                </li>
-                                <li>
-                                    <a href="#blog">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#testimonial">Testimonial</a>
                                 </li>
                                 <li>
                                     <a href="#contact">Contact</a>
@@ -292,7 +286,8 @@
                                                 <img src="images/portfolio-1.jpg" alt=""><!-- Image 1 source -->
                                                 <div>
                                                     <h3>Water Point Data Exchange</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa quis enim.</p>
+                                                    <p>Volunteered for DataKind SG monthly meetups. Current involved in data cleaning and preparation for
+Water Point Data Exchange.</p>
                                                     <div class="lightbox_source"> <a href="" target='_blank'> Source Code</a></div>
                                                 </div>
                                             </div>
@@ -316,7 +311,12 @@
                                                 <img src="images/portfolio-2.jpg" alt=""><!-- Image 2 source -->
                                                 <div>
                                                     <h3>Filtering Identity Theft</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa quis enim.</p>
+                                                    <p>I spearheaded an identity theft model under the supervision of a senior data scientist. I talked to various stakeholders: the risk analysts, customer success team and my CTO to learn how to
+ identify the behavior and traits of identity thefts and to implement their manual flagging methods as variables in
+ SQL. Then, I filtered and extracted data using SQL and used the existing graph theory research to identify the
+ networks. I built many iterations of logistic regression and random forest models to successfully identify 800
+ cases of identity theft and achieved a 76% accuracy rate. Through this project, I learned to work independently
+ and convert a business problem to a data science problem.</p>
                                                     <div class="lightbox_source"> <a href="" target='_blank'> Source Code </a></div>
                                                 </div>
                                             </div>
@@ -340,7 +340,7 @@
                                                 <img src="images/portfolio-3.jpg" alt=""><!-- Image 3 source -->
                                                 <div>
                                                     <h3>Project Title</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla consequat massa quis enim.</p>
+                                                    <p>I have always been interested in combining my skills in data and my interest in social causes. The opportunity present itself while I was in Tel Aviv and I participated in Data Hackathon for Social Good. My task was to classify unknown IoT device to create a whitelist of devices to ensure security of the server. It was a challenging hackathon as we are up against post-graduates who have much more experience than us but it was a humbling experience to learn from them. In a bid to ensure that we at least had some results that can be submitted within the final few hours, I decided to forego complicated algorithms and instead suggested a very simple but effective method to add the results of models together. Our inexperience played to our advantage and to our pleasant surprise, the model did very well and we clinched the 3rd prize overall.</p>
                                                     <div class="lightbox_source"> <a href="" target='_blank'> Source Code</a></div>
                                                 </div>
                                             </div>
@@ -444,10 +444,17 @@
                                     <i class="icon_pencil"></i>
                                 </div>
                                 <div>
-                                    <h3>Behalf</h3>
+                                    <h3>Data Science Intern, Behalf</h3>
                                     <span>Jan - Jul 2018 | Tel Aviv, Israel</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>A member of the Risk team, doing credit risk modelling, data analysis and fraud research.</p>
+                                    <ul>
+                                      <li>Spearheaded identity theft detection model in Python to identify potential identity theft cases and
+successfully flagged 8% of our customer pool as suspicious accounts and achieved 76% accuracy.</li>
+                                      <li>Compiled fraud data from BigQuery and MongoDB, expanded imbalanced data using graph network
+and built a fraud label correction classifier using Gradient Boosting and Logistic Regression.</li>
+                                      <li>Wrote SQL queries to merge conflicting tables to research on customer segmentation and correct
+address parsing issues to assist the data scientists in data preparation.</li>
+                                    </ul>
                                 </div>
                             </div>
                             <!-- Resume box 2 -->
@@ -456,10 +463,16 @@
                                     <i class="icon_toolbox_alt"></i>
                                 </div>
                                 <div>
-                                    <h3>aCommerce</h3>
+                                    <h3>Business Intelligence Intern, aCommerce</h3>
                                     <span>May - Jul 2017 | Singapore</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Supported the Brand Commerce Division in consumer analytics and reporting for clients</p>
+                                    <ul>
+                                      <li>Automated and created templates for client-side reporting using Excel Formulas, VBA and Tableau.</li>
+                                      <li>Analyzed a database of 6,000 transactions to produce consumer purchase latency to support customer
+retention programmes.</li>
+                                      <li>Prepared, monitored and analysed sales data for target projections and joint business planning
+between brands and marketplaces such as Qoo10 and Shopee.</li>
+                                    </ul>
                                 </div>
                             </div>
                             <!-- Resume box 3 -->
