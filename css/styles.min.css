@@ -337,7 +337,7 @@ li {
     width: 100%;
 }
 .imageHover {
-    background: rgba(156, 39, 176, 0.9) none repeat scroll 0 0;
+    background: rgba(0, 139, 139, 0.9) none repeat scroll 0 0;
     color: #fff;
     height: 100%;
     left: 0;
